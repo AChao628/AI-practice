@@ -1,0 +1,19 @@
+langsmith-test/package.json
+  s_9a0f97dc20d44b::t_b6a8e4cb3b20ef 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.13",
+  "base_commit_sha": "73e82545d5b07ff7a7c7ce16dd68348c5f666f64",
+  "prompts": {},
+  "sessions": {
+    "s_9a0f97dc20d44b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "7c75b61d-eb34-4fe0-8b02-dd69123c04a4",
+        "model": "default"
+      },
+      "human_author": "zhangshichao.41 <zhangshichao.41@jd.com>"
+    }
+  }
+}
