@@ -1,3 +1,6 @@
 **/__pycache__/
 **/lora_luxun/
+**/.env
+.DS_Store
+
 

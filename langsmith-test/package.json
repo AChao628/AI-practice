@@ -1,0 +1,19 @@
+{
+  "name": "langsmith-test",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LangGraph RAG with Milvus and LangSmith evaluation",
+  "scripts": {
+    "insert": "node src/milvus_insert.mjs",
+    "ask": "node src/cli.mjs",
+    "chat": "node src/simple_chat.mjs",
+    "eval:dataset": "node src/eval/build_dataset.mjs",
+    "eval:run": "node src/eval/run_eval.mjs"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.37",
+    "@langchain/openai": "^0.4.2",
+    "dotenv": "^16.4.7",
+    "langsmith": "^0.3.12"
+  }
+}
